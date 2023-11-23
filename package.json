@@ -1,0 +1,21 @@
+{
+  "name": "EditPrime",
+  "displayName": "Edit Prime",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.84.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Edit Prime",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Edit Prime-color-theme.json"
+      }
+    ]
+  }
+}
