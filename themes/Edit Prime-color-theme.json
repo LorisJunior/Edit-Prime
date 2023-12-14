@@ -644,7 +644,8 @@
 				"entity.name.function.operator.member.cpp",
 				"variable.other.local.cpp",
 				"meta.parens.cpp",
-				"keyword.other.typeof.cs"
+				"keyword.other.typeof.cs",
+				"variable.language.this.cs"
 			],
 			"settings": {
 				"foreground": "#cdd0d8",
@@ -666,7 +667,15 @@
 				"entity.name.type",
 				"keyword.control",
 				"entity.name.type.class.templated.cpp",
-				
+			],
+			"settings": {
+				"foreground": "#ce8185",
+			}
+		},
+		{
+			"name": "Built-in Types",
+			"scope": [
+				"keyword.type"
 			],
 			"settings": {
 				"foreground": "#ce8185",
@@ -681,7 +690,8 @@
 				"storage.type.built-in.primitive.cpp",
 				"storage.type.namespace.directive.cpp",
 				"keyword.control.directive.include.cpp",
-				"entity.name.namespace.cpp"
+				"entity.name.namespace.cpp",
+				"storage.type"
 			],
 			"settings": {
 				"foreground": "#9e93a5",
@@ -694,13 +704,14 @@
 				"string.quoted.other.lt-gt.include.cpp"
 			],
 			"settings": {
-				"foreground": "#e4dab1",
+				//"foreground": "#e4dab1",
+				"foreground": "#ce8185",
 			}
 		},
 		{
 			"name": "Strings",
 			"scope": [
-				"string.quoted.double"
+				"string.quoted.double",
 			],
 			"settings": {
 				"foreground": "#f1da8f",
